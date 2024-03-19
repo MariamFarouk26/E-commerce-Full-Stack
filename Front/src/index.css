@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+h1 {
+  font-weight: 700 !important;
+  /* font-size: 3.1rem; */
+  /* line-height: 4rem; */
+  color: #222;
+}
+
+h2 {
+  font-weight: 700 !important;
+  /* font-size: 2.8rem !important; */
+  /* line-height: 3.3rem !important; */
+  color: #222;
+}
+
+h4 {
+  font-weight: 700;
+  /* font-size: 1.25rem; */
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  /* font-size: 12px; */
+}
+
+p {
+  /* font-size: 1.1rem; */
+  color: #465b52;
+  /* margin: 15px 0 20px 0; */
+}
+
+body {
+  width: 100%;
+}
+
+/* ============ GLOBAL STYLE ============ */
+
+.section-p1 {
+  padding: 4rem;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+button.normal {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.style {
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  background-color: #088178;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+h1 {
+  font-weight: 700 !important;
+  /* font-size: 3.1rem; */
+  /* line-height: 4rem; */
+  color: #222;
+}
+
+h2 {
+  font-weight: 700 !important;
+  /* font-size: 2.8rem !important; */
+  /* line-height: 3.3rem !important; */
+  color: #222;
+}
+
+h4 {
+  font-weight: 700;
+  /* font-size: 1.25rem; */
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  /* font-size: 12px; */
+}
+
+p {
+  /* font-size: 1.1rem; */
+  color: #465b52;
+  /* margin: 15px 0 20px 0; */
+}
+
+body {
+  width: 100%;
+}
+
+/* ============ GLOBAL STYLE ============ */
+
+.section-p1 {
+  padding: 4rem;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+button.normal {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.style {
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  background-color: #088178;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+}
+
+
+
+/*  */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
